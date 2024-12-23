@@ -1,0 +1,10 @@
+cd Desktop
+cd CBC
+cd Cbc-2.3.2-mac-osx-x86_64-gcc4.3.3-parallel
+cd bin
+export PATH="/Users/segnitulu/Desktop/CBC/Cbc-2.3.2-mac-osx-x86_64-gcc4.3.3-parallel/bin"
+CBC
+import problem.mps
+maxN 100000000
+solve
+solution LPSolution.txt
