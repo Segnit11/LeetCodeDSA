@@ -1,0 +1,299 @@
+# Question 1:
+# Input: 1 -> 2 -> 3 -> 4 -> 5 -> 6
+# Given a linked list, swap every two adjacent nodes and return its head. 
+# You must solve the problem without modifying the values in the list's nodes 
+# (i.e., only nodes themselves may be changed.)
+
+# Input: 1 -> 2 -> 3 -> 4 -> 5 -> 6
+# Output: 2 -> 1 -> 4 -> 3 -> 6 -> 5
+
+
+# Question 2: Write a function to crush candy in a one dimensional board.
+
+# In candy crushing games, groups of like items are removed from the board. 
+# In this problem, any sequence of 3 or more like items should be removed and 
+# any items adjacent to that sequence should now be considered adjacent to each other. 
+# This process should be repeated as many times as possible.
+
+# { "",           ""     },
+# { "A",          "A"    },
+# { "AA",         "AA"   },
+# { "AAA",        ""     },
+# { "AAAA",       ""     },
+# { "AAABBB",     ""     },
+# { "AABBBA",     ""     },
+# { "ABBCCCBBA",  "AA"   },
+# { "AAABBCCCDD", "BBDD" }
+
+
+
+https://colorstack-family.slack.com/archives/C068B1S99AS/p1731367761259919
+
+
+
+# Question 3:
+# 1. Number of Islands: Given a grid of 0's and 1's, count the number of islands. The interviewer 
+# also asked what would happen if the array couldn't be modified and how it would affect the code.
+
+# 2. Design an Underground System: The interviewer asked to design an underground system with some follow-up questions. 
+# The initial question was to design a system to calculate the average distance traveled by passengers on different weekdays. 
+# If no weekday is specified, the overall average distance should be calculated. The interviewer also asked how to find the 
+median distance if needed.
+
+
+
+# Question 4: Given two strings s and t, determine if they are anagrams of each other.
+# An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, 
+# typically using all the original letters exactly once.
+# Input: s = "anagram", t = "nagaram"
+# Output: True
+
+# Question 5: You are given an array of integers representing tickets. 
+# Each element in the array represents the price of a ticket. 
+# You are also given a number k, which represents the number of lottery tickets you can buy. 
+# You must buy exactly k lottery tickets. The goal is to maximize the sum of the prices of the 
+tickets you buy. 
+# Return the maximum possible sum of the prices of the tickets.
+# Input: tickets = [4, 3, 5, 2, 1], k = 3
+# Output: 12
+
+
+# Question 6:
+# Given an API interface that provides the time and death of an individual, 
+# design a key-value data structure to store the result of calling the API. 
+# The key should be the current year and the value should be the population in that year.
+# (No need to implement the code)
+
+
+# Question 7:
+# Question was to implement two functions
+# addConversion and getRate
+# addConversion("jpy", "usd", 1.0)
+# addConversion("usd", "gbp", 3.0)
+# addConversion("cad", "gbp", 0.5)
+# getRate("cad", "jpy") = 0.1667
+# getRate("jpy", "gbp") = 3.0
+# and then after, he changed the scenario to, what if there were multiple paths and exchanges offering 
+different rates. How could you find the max rate for the conversion?
+
+
+
+https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/
+
+https://leetcode.com/problems/palindrome-number/
+
+
+https://leetcode.com/problems/insert-delete-getrandom-o1/description/
+
+
+https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/
+
+https://leetcode.com/problems/binary-tree-vertical-order-traversal/description
+
+
+# Question 8:
+# Remove a target value from a linked list
+# Given an array of start and end times, return the overlapping intervals. Similar to meeting rooms
+
+
+# Question 9:
+# Very light resume grill. Asking me to describe challenges I faced during my internship and wanted 
+# a high level overview of my intern project with some follow-ups concerning my intern project.
+# Tech question was a variation of Leetcode 347 - Top K Frequent Elements but with an OOP portion 
+   that was modeled after something business related
+# We spent most of the time on the tech question + optimizations + complexity analysis and then ~10 minutes for questions at the end.
+
+
+# Question 10:
+# 2 or 3 mins Introduction
+# 10 mins resume grill --> Go into as much detail as possible until they dont even know what can throw u off, just yapp
+# 30 mins --> 1 lc medium question -> a variation of meeting rooms https://leetcode.com/problems/meeting-rooms/description/
+# 10 mins --> me explaining my code and walking through the testcase
+# last 6 mins or so --> Asked 3 questions, one personal to NYC and 2 regarding Bloomberg
+
+
+# Question 11:
+# Resume grilling for 10 minutes
+# Valid Parenthesis https://leetcode.com/problems/valid-parentheses/description/
+# Flatten array with follow ups on levels and iterative vs recursive approach https://leetcode.com/problems/flatten-deeply-nested-array/description/
+
+
+# Question 12:
+# First round:
+# first 10 minutes - asked me about previous internship experience and what I learned and what I liked and disliked about the experience
+# Next 40 minutes -- he asked me to design a Spreadsheet class that could support the following operations: getValue, insertValue, and 
+# inserting a value so that it refers to another cell. I think this went okay, when he added the extra constraint of inserting a value that refers to 
+# another value by cell it took me a minute to realize that it had to be recursive, and I also had to account for circular references (i.e., A1 -> B1 -> A1)
+
+
+
+https://leetcode.com/discuss/interview-question/356960
+
+
+# Question 13:
+# New Grad 1st Round:
+# -Resume grill
+# -Technical
+# —Longest substring without repeating characters
+# —Add two numbers (Linked list)
+# -Any questions about BB
+
+
+
+# Question 14:
+# Did new grad '25 last week.
+# First round
+# Resume grilling 10 mins
+# Got a question about implementing a lottery system data structure with functions to get a random person, add someone and withdraw someone. 
+# You had to implement the methods. Something like this https://leetcode.com/discuss/interview-question/object-oriented-design/2274219/Amazon-Lottery-Question/
+# Additional question about how I would do this if I could allow someone to put themselves twice in the lottery
+
+
+# Question 15:
+# Second round
+#  Resume grilling 15 mins
+# Add next pointers to a binary tree
+# https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
+# Time + space complexity
+# Explain why you could or couldn’t do this with DFS
+
+# HR round
+# What do you use to determine if a company is a good fit?
+# Tell me about why you chose your major in CS
+# Why Bloomberg in-depth
+# What offers do you currently have / when do you plan to stop recruiting?
+# Asked if I had any questions about BB
+
+
+
+# Question 16:
+# Did my second round interview for New Grad 2025 today and this was the interview:
+# First Technical Interview:
+# Single Interviewer
+# Resume grill, 10-15 minutes
+# Return All String In Deepest Bracket Level,  25 minutes
+# Provided O(n) solution
+# Maximum Width of Binary Tree, 10 minutes
+# Provided BFS and DFS solutions
+# Questions about Bloomberg and interviewer, 10 minutes
+
+
+# Question 17:
+# Second Technical Interview:
+# Single Interviewer
+# Resume grill, 10-15 minutes
+# Three different iterations of Two Sum
+# Count different pairs that add up to target
+# Count different unique pairs that add up to target
+# Count pairs that up to target when array is sorted
+# Questions about Bloomberg and interviewer, 10 minutes
+
+# HR Round:
+# Single Interview with another person shadowing
+# Questions:
+# Tell me about yourself?
+# Why Bloomberg?
+# What was favorite part learning about Bloomberg through interview?
+# What are you looking forward to in next job?
+# What do you know about our orientation?
+# Walk me through past project and issues you went through?
+# Tell me about an issue you had with a past project
+
+
+
+# Question 18:
+# Interviewer was chill
+# 5 - 10 minutes: Resume Grilling
+# I got a graph problem, and I wanted to code up the BFS solution immediately, 
+but he said to explore other solution and after changing the requirements multiple times,  
+I ended up going over the BFS solution.
+# He was more interested in the way I would approach the different requirements
+# Given a m x n matrix, where "c" represents a car, "o" represents an oasis, "r" represents a rock,  
+  "." represents an empty space, "x from 1 to inf" represents a gas station, return True if the car 
+  can get to the oasis, false otherwise.
+# First level: one car, one oasis
+# Second level: one car, multiple oasis
+# Third level: one car, multiple oasis, one gas station
+# Fourth level: one car, multiple oasis, multiple gas stations, and multiple rocks
+
+
+# Question 19:
+# 5-10 minutes: Resume Grilling
+# Bro asked me what the difference between C vs C++ vs Java was :neutral_face: (gave him the answer but why??)
+# Technical Portion (40-45 minutes):
+# Q1: Determine if a string has balanced parenthesis (https://leetcode.com/problems/valid-parentheses/)
+# Q2: Merge two sorted linked lists in place (https://leetcode.com/problems/merge-two-sorted-lists/)
+# Last 5 minutes: Questions (edited)
+
+
+# Question 20:
+# Resume grilling then the following problems
+# https://www.geeksforgeeks.org/generate-all-binary-strings-from-given-pattern/
+# something similar to https://leetcode.com/problems/string-compression/description/ (with a twist where your input 
+and output are integers, not char arrays, and you're not allowed to use string operations like concat)
+# 1112221111 -> 313241
+# 1 -> 11
+# 9999999999 -> 109
+# 111111111111222222222222 -> 121122
+
+
+
+https://leetcode.com/problems/longest-common-subsequence/description/
+
+
+# Interviewer Introduction, 3 minutes
+# Resume grill, 10-15 minutes
+# Valid Anagram,  5 minutes
+# Find All Anagrams in a String, 20 minutes
+# Questions about Bloomberg and interviewer, 10 minutes
+
+
+# i was asked questions similar to  https://leetcode.com/problems/add-two-numbers/description/ (except number was not in reverse) 
+# https://leetcode.com/problems/two-city-scheduling/description/
+
+
+
+Question 21: 
+Problem Statement
+Given the root of a binary tree, modify the tree such that each node has a link attribute set 
+according to the following rules:
+  - Nodes at odd levels (1-based) should be linked left to right.
+  - Nodes at even levels should be linked right to left.
+  - The last node in each level should have its link attribute set to None.
+
+
+Question 22:
+Number of Islands
+Given a 2D grid map of '1's (land) and '0's (water), count the number of islands. An island is 
+surrounded by water and is formed by connecting adjacent lands horizontally or vertically (not diagonally). 
+You can assume the grid’s edges are surrounded by water.
+
+
+
+# def check_pal(s):
+#     left = 0
+#     right = len(s) - 1
+
+#     while left < right:
+#         if s[left] != s[right]:
+#             return False
+#         left += 1
+#         right -= 1
+#     return True
+
+# class Solution:
+#     def longestPalindrome(self, s: str) -> str:
+#         max_length = 0
+#         pal_string = ""
+
+#         for i in range(len(s)):
+#             for j in range(len(s), i, -1):
+#                 substr = s[i:j]
+#                 if check_pal(substr): 
+#                     if (j - i) > max_length:
+#                         max_length = j - i
+#                         pal_string = s[i:j]
+#         return pal_string
+
+
+

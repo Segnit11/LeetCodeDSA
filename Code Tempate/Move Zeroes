@@ -1,0 +1,42 @@
+# 283. Move Zeroes
+"""
+Burte Force Approach:
+
+A nested loop that swaps elements in the list nums to move all zeros to the end.
+Time Complexity = O(n^2)
+Space Complecity = O(1) since the code does not use any additional data structures that grow with the input size.
+"""
+from typing import List
+
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        for i in range(len(nums) - 1):
+            for j in range(i + 1, len(nums)):
+                if nums[i] == 0 and nums[j] != 0:
+                    nums[i], nums[j] = nums[j], nums[i]
+
+
+"""
+Two-Pointer Approach:
+
+Fill out the numbers first and then fill the zeros at the end.
+Time Complexity: O(n), n is the length of the array.
+Space Complexity: O(1) since we are modifying the array in place without using additional storage.
+"""
+
+
+from typing import List
+
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        insert_pos = 0
+
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[insert_pos] = nums[i]
+                insert_pos += 1
+        
+        while(insert_pos < nums.length):
+            nums[insert_pos] = 0
+            insert_pos += 1 
+        
